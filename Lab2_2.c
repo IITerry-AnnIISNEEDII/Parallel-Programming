@@ -8,7 +8,7 @@ Name: Terry-Ann Sneed
 #include <mpi.h>
 
 /* Calculate value of pi *?
-/* This is the same method as Part I, except the function and boudaries of integration differ */
+/* This is the same method as Part I, except the function and boundaries of integration differ */
 /* Higher values of n yield more accurate results */
 void Get_input(int my_rank, int comm_sz, int *n_p);
 double Trap_for_pi(double left_endpt, double right_endpt, int trap_count, double base_len);
